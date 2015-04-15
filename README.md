@@ -33,10 +33,6 @@ The procedure for starting up a working WordPress is as follows:
 
 ## Working with the environment
 
-To log in to the local Wordpress installation:
-
-`http://vagrantpress.dev/wp-admin/` the username is `admin`, the password is `vagrant`.
-
 You can access phpMyAdmin:
 
 `http://vagrantpress.dev/phpmyadmin/` with username `wordpress`, password `wordpress`.
@@ -51,14 +47,14 @@ Feel free to file an issue, create a pull request, or contact me at [my website]
 
 [chadthompson]: http://chadthompson.me
 
-# Changelog @andreacanton
+## Changelog @andreacanton
 + Set apache to allow override by .htaccess files
 + Comment composer and phpqa classes (I don't use them in my developing process - for now)
 + Remove automatic installation of wordpress and wordpress test (so you can choose admin user, website name, language and table prefix)
 + Add default Gruntfile.js + package.json
 + Install bones theme
 
-# TODO
+### TODO
 + Remove default themes and add bones
 + Wordpress cli install (change provisioner to chef?)
 + Prompt set domain and default ip (change provisioner to chef?)
