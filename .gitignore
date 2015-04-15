@@ -5,3 +5,5 @@ latest.tar.gz
 ./wordpress/
 /wordpress/
 /wp-tests/
+.idea
+vagrantpress.iml

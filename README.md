@@ -12,19 +12,6 @@ I initially created this project to aid in developing child modules for a WordPr
 + Phpmyadmin
 + Subversion
 + Git
-+ Composer
-+ ~~PEAR~~
-+ Xdebug
-+ PHPUnit - **installed via composer*
-+ phploc - **installed via composer*
-+ phpcpd - **installed via composer*
-+ phpdcd - **installed via composer*
-+ phpcs - **installed via composer*
-+ phpdepend - **installed via composer*
-+ phpmd - **installed via composer*
-+ PHP_CodeBrowser - **installed via composer*
-+ WordPress sniffs for phpcs
-+ WordPress Unit Tests - **installed via composer*
 
 **PEAR removed as support has reached end of life, see [End of Life for PEAR Installation Method](https://github.com/sebastianbergmann/phpunit/wiki/End-of-Life-for-PEAR-Installation-Method)*
 
@@ -63,3 +50,17 @@ You can access phpMyAdmin:
 Feel free to file an issue, create a pull request, or contact me at [my website][chadthompson].
 
 [chadthompson]: http://chadthompson.me
+
+# Changelog @andreacanton
++ Set apache to allow override by .htaccess files
++ Comment composer and phpqa classes (I don't use them in my developing process - for now)
++ Remove automatic installation of wordpress and wordpress test (so you can choose admin user, website name, language and table prefix)
++ Add default Gruntfile.js + package.json
++ Install bones theme
+
+# TODO
++ Remove default themes and add bones
++ Wordpress cli install (change provisioner to chef?)
++ Prompt set domain and default ip (change provisioner to chef?)
+
+

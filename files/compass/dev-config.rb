@@ -1,0 +1,9 @@
+http_path = "/"
+css_dir = "assets/css"
+sass_dir = "library/scss"
+images_dir = "assets/images"
+javascripts_dir = "assets/js"
+environment = :development
+relative_assets = true
+output_style = :expanded
+preferred_syntax = :scss
