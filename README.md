@@ -10,8 +10,7 @@ I initially created this project to aid in developing child modules for a WordPr
 + Mysql
 + Php
 + Phpmyadmin
-+ Subversion
-+ Git
++ Postfix (for sending emails)
 
 **PEAR removed as support has reached end of life, see [End of Life for PEAR Installation Method](https://github.com/sebastianbergmann/phpunit/wiki/End-of-Life-for-PEAR-Installation-Method)*
 
@@ -43,9 +42,7 @@ You can access phpMyAdmin:
 
 ## Getting Help
 
-Feel free to file an issue, create a pull request, or contact me at [my website][chadthompson].
-
-[chadthompson]: http://chadthompson.me
+Feel free to file an issue, create a pull request, or contact me.
 
 ## Changelog @andreacanton
 + Set apache to allow override by .htaccess files
@@ -53,6 +50,7 @@ Feel free to file an issue, create a pull request, or contact me at [my website]
 + Remove automatic installation of wordpress and wordpress test (so you can choose admin user, website name, language and table prefix)
 + Add default Gruntfile.js + package.json
 + Install bones theme
++ Install postfix for sending email
 
 ### TODO
 + Remove default themes and add bones

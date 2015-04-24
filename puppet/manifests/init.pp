@@ -14,5 +14,6 @@ class { 'php5::install': }
 class { 'mysql::install': }
 class { 'wordpress::install': }
 class { 'phpmyadmin::install': }
+class { 'postfix::install': }
 # class { 'composer::install': }
 # class { 'phpqa::install': }
